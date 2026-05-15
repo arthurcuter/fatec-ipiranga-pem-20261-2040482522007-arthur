@@ -10,16 +10,7 @@
 #ifndef INTERFACE_H
 #define INTERFACE_H
 
-void exibirMenu();
-int escolhaUsuario();
-int lerNumero();
-int lerExpoente();
-void exibirResultadoPotencia(int numero, int expoente, int resultado);
-void exibirResultadoSoma(int resultado);
-void exibirMensagemBinario();
-void exibirMensagemSaida();
-void exibirMensagemErro();
-void exibirZero();
-void pularLinha();
+int exibirMenu();
+void escolhaUsuario(int escolha);
 
 #endif
